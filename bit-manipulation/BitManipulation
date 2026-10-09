@@ -1,6 +1,7 @@
 class BitManipulation {
     public static long getBit(long n, int k) {
         // return 1 if the k-th bit of n is set, otherwise 0
+        // return get bit
         return (n>>k)&1L;
     }
 
