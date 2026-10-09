@@ -9,7 +9,7 @@ class BitManipulation {
         return n|(1L<<k);
     }
     public static long clearBit(long n, int k) {
-        // set the k-th bit to 0
+        // set the k-th bit
         return n& ~(1L<<k);
     }
     public static long toggleBit(long n, int k) {
